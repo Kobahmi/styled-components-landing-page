@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/styled-components-landing-page/static/css/main.29ddcf5d.css",
+    "main.js": "/styled-components-landing-page/static/js/main.ea3713c9.js",
+    "static/media/illustration-flowing-conversation.svg": "/styled-components-landing-page/static/media/illustration-flowing-conversation.447b9b47aef8c266f047.svg",
+    "static/media/illustration-your-users.svg": "/styled-components-landing-page/static/media/illustration-your-users.c07ebfaafd557ff00fa4.svg",
+    "static/media/illustration-grow-together.svg": "/styled-components-landing-page/static/media/illustration-grow-together.3c29212c7a9ccd6cccf0.svg",
+    "static/media/logo.svg": "/styled-components-landing-page/static/media/logo.3c5a854404daac9e6820.svg",
+    "static/media/logo_white.svg": "/styled-components-landing-page/static/media/logo_white.be2e01a244e84e6d9045.svg",
+    "static/media/illustration-mockups.svg": "/styled-components-landing-page/static/media/illustration-mockups.7b6cb4d9270f53c0f45bbf842e8ce077.svg",
+    "index.html": "/styled-components-landing-page/index.html",
+    "main.29ddcf5d.css.map": "/styled-components-landing-page/static/css/main.29ddcf5d.css.map",
+    "main.ea3713c9.js.map": "/styled-components-landing-page/static/js/main.ea3713c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29ddcf5d.css",
+    "static/js/main.ea3713c9.js"
+  ]
+}

@@ -13,7 +13,7 @@ import illustration1 from "../components/images/illustration-mockups.svg";
 export default function Header() {
   return (
     <BigWrapper>
-      <Wrapper1>
+      <Wrapper1 data-aos="zoom-in">
         <BigLogo>
           <h1>Hubble</h1>
         </BigLogo>
@@ -22,7 +22,7 @@ export default function Header() {
         </Button>
       </Wrapper1>
 
-      <Wrapper3>
+      <Wrapper3 data-aos="zoom-in">
         <Wrapper2>
           <h1>Build The Community Your Fans Will Love</h1>
           <p>
