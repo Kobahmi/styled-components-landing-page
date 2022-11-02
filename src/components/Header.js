@@ -7,8 +7,10 @@ import {
   RedButton,
   BigWrapper,
   BigLogo,
+  TextStyle,
 } from "./styles/Header.styled";
 import illustration1 from "../components/images/illustration-mockups.svg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -17,9 +19,12 @@ export default function Header() {
         <BigLogo>
           <h1>Hubble</h1>
         </BigLogo>
-        <Button>
-          <h4>Try It Free</h4>
-        </Button>
+
+        <Link to="/styled-components-landing-page/">
+          <Button>
+            <TextStyle>HOME</TextStyle>
+          </Button>
+        </Link>
       </Wrapper1>
 
       <Wrapper3 data-aos="zoom-in">
@@ -30,9 +35,12 @@ export default function Header() {
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
-          <RedButton>
-            <h4>Get Started For Free</h4>
-          </RedButton>
+
+          <Link to="/cars/">
+            <RedButton>
+              <TextStyle>CLICK HERE TO SEE CARS</TextStyle>
+            </RedButton>
+          </Link>
         </Wrapper2>
 
         <Image src={illustration1} alt="" />

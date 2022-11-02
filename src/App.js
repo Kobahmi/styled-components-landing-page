@@ -7,6 +7,9 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import cars from "./components/data/cars";
+import Cars from "./components/CarsContent";
 
 function App() {
   useEffect(() => {
@@ -15,16 +18,33 @@ function App() {
   }, []);
 
   return (
-    <>
+    <BrowserRouter>
       <Header />
+      <Routes>
+        <Route
+          path="/styled-components-landing-page/"
+          element={
+            <Container>
+              {content.map((item, index) => (
+                <Card key={index} item={item} />
+              ))}
+            </Container>
+          }
+        />
 
-      <Container>
-        {content.map((item, index) => (
-          <Card key={index} item={item} />
-        ))}
-      </Container>
+        <Route
+          path="/cars/"
+          element={
+            <Container>
+              {cars.map((item, index) => (
+                <Cars key={index} item={item} />
+              ))}
+            </Container>
+          }
+        />
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

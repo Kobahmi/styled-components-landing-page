@@ -57,6 +57,10 @@ export const Button = styled.button`
   }
 `;
 
+export const TextStyle = styled.h4`
+  text-decoration: none;
+`;
+
 export const RedButton = styled(Button)`
   color: white;
   background-color: palevioletred;
