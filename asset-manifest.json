@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/styled-components-landing-page/static/css/main.3e65f88a.css",
-    "main.js": "/styled-components-landing-page/static/js/main.5d3e7c92.js",
+    "main.js": "/styled-components-landing-page/static/js/main.9760f4fc.js",
     "static/media/models.jpg": "/styled-components-landing-page/static/media/models.6e998c03e56c004107fd.jpg",
     "static/media/solarpanel.jpg": "/styled-components-landing-page/static/media/solarpanel.d7d441d74e34d37c2c00.jpg",
     "static/media/modely.jpg": "/styled-components-landing-page/static/media/modely.30acb76aab6f760a753a.jpg",
@@ -16,10 +16,10 @@
     "static/media/illustration-mockups.svg": "/styled-components-landing-page/static/media/illustration-mockups.7b6cb4d9270f53c0f45bbf842e8ce077.svg",
     "index.html": "/styled-components-landing-page/index.html",
     "main.3e65f88a.css.map": "/styled-components-landing-page/static/css/main.3e65f88a.css.map",
-    "main.5d3e7c92.js.map": "/styled-components-landing-page/static/js/main.5d3e7c92.js.map"
+    "main.9760f4fc.js.map": "/styled-components-landing-page/static/js/main.9760f4fc.js.map"
   },
   "entrypoints": [
     "static/css/main.3e65f88a.css",
-    "static/js/main.5d3e7c92.js"
+    "static/js/main.9760f4fc.js"
   ]
 }
