@@ -38,7 +38,7 @@ function App() {
         />
 
         <Route
-          path="/cars/"
+          path="/styled-components-landing-page/cars/"
           element={
             <Container>
               {cars.map((item, index) => (

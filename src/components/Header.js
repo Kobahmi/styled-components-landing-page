@@ -36,7 +36,7 @@ export default function Header() {
             engage in genuine discussion.
           </p>
 
-          <Link to="/cars/">
+          <Link to="/styled-components-landing-page/cars/">
             <RedButton>
               <TextStyle>CLICK HERE TO SEE CARS</TextStyle>
             </RedButton>
