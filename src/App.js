@@ -5,11 +5,16 @@ import Card from "./components/Content";
 import content from "./components/data/content";
 import Footer from "./components/Footer";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import cars from "./components/data/cars";
 import Cars from "./components/CarsContent";
+
+/*const ContentPage = lazy(() => import("./components/Content"));
+const CarPage = lazy(() => import("./components/CarsContent"));
+
+Lazy loading avec Suspense pour creer un load page during une attente*/
 
 function App() {
   useEffect(() => {

@@ -12,9 +12,11 @@ export const BigWrapper = styled.div`
   gap: 2rem;
   flex-direction: ${(props) => props.layout || "row"};
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     flex-direction: column;
     text-align: center;
+    height: 100vh;
+    font-size: 0.7rem;
   }
 `;
 
@@ -32,6 +34,13 @@ export const TextWrapper = styled.div`
   gap: 1rem;
   width: 50vw;
   padding-inline: 1rem;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding-block: 1rem;
+  }
 `;
 
 export const ImageWrapper = styled.div`
